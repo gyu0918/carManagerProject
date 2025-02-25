@@ -15,7 +15,7 @@ public class CarService {
             System.out.println("자동차 소유자 이름과 자동차 번호를 입력하세요.");
             Car car = new Car();
             car.setCarOwner(br.readLine());
-            car.setCarNumber(Integer.parseInt(br.readLine()));
+            car.setCarNumber(br.readLine());
             cars.add(car);
     }
     public void ptrAllCar(){
@@ -23,5 +23,8 @@ public class CarService {
             System.out.println("자동차 소유자 =  " + car.getCarOwner());
             System.out.println("자동차 번호  = " + car.getCarNumber());
         });
+    }
+    public List<Car> getCars() {
+        return cars;
     }
 }

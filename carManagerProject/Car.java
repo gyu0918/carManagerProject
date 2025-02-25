@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 public class Car {
     private String carOwner;
-    private int carNumber;
+    private String carNumber;
 
     public String getCarOwner() {
         return carOwner;
@@ -16,11 +16,11 @@ public class Car {
         this.carOwner = carOwner;
     }
 
-    public int getCarNumber() {
+    public String getCarNumber() {
         return carNumber;
     }
 
-    public void setCarNumber(int carNumber) {
+    public void setCarNumber(String carNumber) {
         this.carNumber = carNumber;
     }
 }

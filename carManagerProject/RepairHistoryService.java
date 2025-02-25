@@ -19,6 +19,8 @@ public class RepairHistoryService {
                     System.out.println("수리 날짜 = " + repairHistory.getRepairDate());
                     System.out.println("수리 내용 = " + repairHistory.getRepairContent());
                 });
+
+
         System.out.println(" 수리 내역 입력하고 싶으면 날짜와 수리 내용을 입력하세요. ");
 
         RepairHistory repairHistory = new RepairHistory();
